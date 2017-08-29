@@ -1,4 +1,5 @@
 @echo off
+echo processing %1
 %~d1:
 cd "%~d1%~p1"
 mkdir originals
